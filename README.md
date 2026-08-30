@@ -27,9 +27,9 @@
 
 ## Frontend:
 Frontend di Netlify fetch dari:
-https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/news_terbaru.json
-https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/teknikal_terbaru.json
-https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/broksum_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/news_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/teknikal_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/broksum_terbaru.json
 
 Ganti USERNAME dengan username GitHub Anda di frontend HTML.
 
