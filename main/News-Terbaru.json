@@ -1,93 +1,43 @@
 {
-  "last_update": "28 Agustus 2026",
-  "update_via": "Chat ke Meta AI - Auto generate",
-  "source": "investor.id, tradingview, pasardana.id, bareksa, indo premier",
+  "last_update": "31 Agustus 2026 (Data Bursa -1 = 28 Agustus 2026 Jumat) - UPDATE 10 Emiten Napak Tilas",
+  "note": "29/30 Sabtu Minggu libur broksum tidak update - Data 31 Aug = 28 Aug - UPDATE 10 emiten EKAD NICE INET IATA PADA MDIA FAST GRIA ASLI JIHD",
+  "tanggal_bursa": {
+    "31_Agustus_2026": "Minggu Libur - Data pakai 28 Aug - UPDATE 10 emiten napak tilas",
+    "28_Agustus_2026": "Jumat - Last trading day - 65 emiten total"
+  },
   "news": [
     {
       "date": "26 Agustus 2026",
-      "ihsg": "-1.48% ke 6405.68",
-      "ihsg_value": -1.48,
-      "alasan": "Demo besar 27 Aug Jakarta ribuan buruh upah minimum 2026 hapus outsourcing reformasi pajak, RUU Perampasan Aset, Wait and see risiko domestik, Rupiah melemah, LQ45 -9.40, Psikolog[...],",
-      "sector_impact": {
-        "Property": "-5%",
-        "All": "-10%"
-      },
+      "ihsg": "-1.48%",
+      "alasan": "Demo besar",
       "prob_adj": -10,
-      "type": "crash",
-      "stocks_affected": [
-        "All"
-      ]
+      "type": "crash"
     },
     {
       "date": "27 Agustus 2026",
-      "ihsg": "+1.81% ke 6450",
-      "ihsg_value": 1.81,
-      "alasan": "Rebound 466 naik 145 turun, Properti & Real Estate +1.41% top gainer DMAS +11%, Konsumer Non-Primer +2.19%, Transport +2.14%, Energi +1.59%, Minyak turun diplomatik Timur Tengah, [...],",
-      "sector_impact": {
-        "Property": "+7%",
-        "Consumer": "+3%",
-        "Transport": "+3%",
-        "Energi": "+5%"
-      },
+      "ihsg": "+1.81%",
+      "alasan": "Rebound Properti +1.41% DMAS +11%",
       "prob_adj": 5,
-      "type": "super_bullish",
-      "stocks_affected": [
-        "DMAS",
-        "Property",
-        "Consumer"
-      ]
+      "type": "super_bullish"
     },
     {
-      "date": "28 Agustus 2026",
-      "ihsg": "-0.06% sideways 6440-6580",
-      "ihsg_value": -0.06,
-      "alasan": "Sideways support 6440-6500 resist 6550-6580 BNI Sekuritas, MACD positif Stochastic RSI overbought turun Phintraco, Wait PCE 3.7% yoy, Minyak Selat Hormuz, 288 filter 51-599 12 BUY[...],",
-      "sector_impact": {
-        "All": "0%"
-      },
+      "date": "28 Agustus 2026 - Valid untuk 31 Agustus - UPDATE 10 Emiten",
+      "ihsg": "-0.06% sideways",
+      "alasan": "Sideways 6440-6580 + UPDATE 10 emiten napak tilas EKAD 150.3% TP 1.2B vs YU 1.1B, NICE 54.84% CC 669M vs YU 312M CC Dominan, INET 54.55% XL 18.8B vs AK 45.5B Battle BIG, IATA 93.1% AK 1.7B vs CP 1.3B, PADA 88.14% XL 1.2B vs AK 2.1B, MDIA 83.21% XL 813M vs SH 3B, FAST 65.96% LG 409M vs AG 474M, GRIA 55.17% YP 503M vs KI 837M, ASLI 25.89% AK 1.1B vs OD 1B, JIHD PD 380M vs YJ 117M - 29/30 libur",
       "prob_adj": 0,
-      "type": "sideways",
+      "type": "update_10_emiten",
       "stocks_affected": [
-        "All"
-      ]
-    },
-    {
-      "date": "28 Agustus 2026",
-      "ihsg": "SDPC & BWPT Update",
-      "ihsg_value": -0.06,
-      "alasan": "SDPC +5.26% XA 38M vs PD 25.2M Battle kecil Foreign -0.7M, BWPT +4.90% HP 2.2B vs AK 3B Battle BIG Foreign -829M Local +810M - Upload via chat",
-      "sector_impact": {
-        "SDPC": "+2%",
-        "BWPT": "-5%"
-      },
-      "prob_adj": 0,
-      "type": "update",
-      "stocks_affected": [
-        "SDPC",
-        "BWPT"
+        "EKAD",
+        "NICE",
+        "INET",
+        "IATA",
+        "PADA",
+        "MDIA",
+        "FAST",
+        "GRIA",
+        "ASLI",
+        "JIHD"
       ]
     }
-  ],
-  "ihsg_levels": {
-    "crash<-1.5%": {
-      "prob_adj": -10,
-      "mode": "DEFENSIVE FF<0.25 only"
-    },
-    "bear-1.5% to -0.5%": {
-      "prob_adj": -5,
-      "mode": "BEARISH"
-    },
-    "sideways-0.5% to +0.5%": {
-      "prob_adj": 0,
-      "mode": "SIDEWAYS V1 VALID 80.77% REAL"
-    },
-    "bullish+0.5% to +1.5%": {
-      "prob_adj": 3,
-      "mode": "BULLISH V9 VALID 100% REAL"
-    },
-    "super_bull>+1.5%": {
-      "prob_adj": 5,
-      "mode": "SUPER BULL V3 FINAL"
-    }
-  }
+  ]
 }
