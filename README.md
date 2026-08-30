@@ -27,11 +27,11 @@
 
 ## Frontend:
 Frontend di Netlify fetch dari:
-https://raw.githubusercontent.com/USERNAME/engine-v9-data/main/news_terbaru.json
-https://raw.githubusercontent.com/USERNAME/engine-v9-data/main/teknikal_terbaru.json
-https://raw.githubusercontent.com/USERNAME/engine-v9-data/main/broksum_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/news_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/teknikal_terbaru.json
+https://raw.githubusercontent.com/borneoagribisnis/engine-v9-data/main/broksum_terbaru.json
 
 Ganti USERNAME dengan username GitHub Anda di frontend HTML.
 
 ## Link Frontend:
-https://engine-v9.netlify.app (ganti dengan link Netlify Anda)
+https://saham-engine-v9.netlify.app (ganti dengan link Netlify Anda)
