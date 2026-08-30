@@ -1,0 +1,93 @@
+{
+  "last_update": "28 Agustus 2026",
+  "update_via": "Chat ke Meta AI - Auto generate",
+  "source": "investor.id, tradingview, pasardana.id, bareksa, indo premier",
+  "news": [
+    {
+      "date": "26 Agustus 2026",
+      "ihsg": "-1.48% ke 6405.68",
+      "ihsg_value": -1.48,
+      "alasan": "Demo besar 27 Aug Jakarta ribuan buruh upah minimum 2026 hapus outsourcing reformasi pajak, RUU Perampasan Aset, Wait and see risiko domestik, Rupiah melemah, LQ45 -9.40, Psikolog[...],",
+      "sector_impact": {
+        "Property": "-5%",
+        "All": "-10%"
+      },
+      "prob_adj": -10,
+      "type": "crash",
+      "stocks_affected": [
+        "All"
+      ]
+    },
+    {
+      "date": "27 Agustus 2026",
+      "ihsg": "+1.81% ke 6450",
+      "ihsg_value": 1.81,
+      "alasan": "Rebound 466 naik 145 turun, Properti & Real Estate +1.41% top gainer DMAS +11%, Konsumer Non-Primer +2.19%, Transport +2.14%, Energi +1.59%, Minyak turun diplomatik Timur Tengah, [...],",
+      "sector_impact": {
+        "Property": "+7%",
+        "Consumer": "+3%",
+        "Transport": "+3%",
+        "Energi": "+5%"
+      },
+      "prob_adj": 5,
+      "type": "super_bullish",
+      "stocks_affected": [
+        "DMAS",
+        "Property",
+        "Consumer"
+      ]
+    },
+    {
+      "date": "28 Agustus 2026",
+      "ihsg": "-0.06% sideways 6440-6580",
+      "ihsg_value": -0.06,
+      "alasan": "Sideways support 6440-6500 resist 6550-6580 BNI Sekuritas, MACD positif Stochastic RSI overbought turun Phintraco, Wait PCE 3.7% yoy, Minyak Selat Hormuz, 288 filter 51-599 12 BUY[...],",
+      "sector_impact": {
+        "All": "0%"
+      },
+      "prob_adj": 0,
+      "type": "sideways",
+      "stocks_affected": [
+        "All"
+      ]
+    },
+    {
+      "date": "28 Agustus 2026",
+      "ihsg": "SDPC & BWPT Update",
+      "ihsg_value": -0.06,
+      "alasan": "SDPC +5.26% XA 38M vs PD 25.2M Battle kecil Foreign -0.7M, BWPT +4.90% HP 2.2B vs AK 3B Battle BIG Foreign -829M Local +810M - Upload via chat",
+      "sector_impact": {
+        "SDPC": "+2%",
+        "BWPT": "-5%"
+      },
+      "prob_adj": 0,
+      "type": "update",
+      "stocks_affected": [
+        "SDPC",
+        "BWPT"
+      ]
+    }
+  ],
+  "ihsg_levels": {
+    "crash<-1.5%": {
+      "prob_adj": -10,
+      "mode": "DEFENSIVE FF<0.25 only"
+    },
+    "bear-1.5% to -0.5%": {
+      "prob_adj": -5,
+      "mode": "BEARISH"
+    },
+    "sideways-0.5% to +0.5%": {
+      "prob_adj": 0,
+      "mode": "SIDEWAYS V1 VALID 80.77% REAL"
+    },
+    "bullish+0.5% to +1.5%": {
+      "prob_adj": 3,
+      "mode": "BULLISH V9 VALID 100% REAL"
+    },
+    "super_bull>+1.5%": {
+      "prob_adj": 5,
+      "mode": "SUPER BULL V3 FINAL"
+    }
+  }
+}
